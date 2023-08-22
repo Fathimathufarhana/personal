@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contactPage">
-{/* 
+      {/* 
       <div id="clients">
         <h1 className="contactPageTitle">My Clients</h1>
         <p className="clienDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dicta!</p>
@@ -53,19 +53,17 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
         >
-
           <input type="text" className="name" placeholder='Your Name' name='your_name' />
           <input type="email" className="email" placeholder='Your Email' name='your_email' />
           <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
           <button type="submit" value='Send' className="submitBtn">Submit</button>
           <div className="links">
-           <a href='https://www.linkedin.com/in/fathimathu-farhana-528b35264/'> <img src={Linkedin} alt="linkedin" className="link" /> </a>
-           <a href='https://github.com/Fathimathufarhana'> <img src={Github} alt="github" className="link" /></a>
-           <a href='https://www.hackerrank.com/fathimathufarha1'> <img src={Hackerrank} alt="hackerrank" className="link" /></a>
+            <a href='https://www.linkedin.com/in/fathimathu-farhana-528b35264/'> <img src={Linkedin} alt="linkedin" className="link" /> </a>
+            <a href='https://github.com/Fathimathufarhana'> <img src={Github} alt="github" className="link" /></a>
+            <a href='https://www.hackerrank.com/fathimathufarha1'> <img src={Hackerrank} alt="hackerrank" className="link" /></a>
           </div>
         </form>
       </div>
-
     </section>
   )
 }
