@@ -53,6 +53,7 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
         >
+
           <input type="text" className="name" placeholder='Your Name' name='your_name' />
           <input type="email" className="email" placeholder='Your Email' name='your_email' />
           <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
@@ -64,6 +65,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      
     </section>
   )
 }
