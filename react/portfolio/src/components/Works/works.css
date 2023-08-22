@@ -28,9 +28,11 @@
     max-width: 65rem;
 }
 .workImg{
-    object-fit: cover;
+    object-fit: fill;
     height: 20rem;
     margin: 0.5rem;
+    width: 20rem;
+    
 }
 .worksBtn{
     margin: 3rem 0;

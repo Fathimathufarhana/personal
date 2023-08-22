@@ -4,10 +4,10 @@ import Linkedin from "../../assets/linkedin-icon.png"
 import Github from "../../assets/github-icon.png"
 import Hackerrank from "../../assets/hackerrank.jpg"
 import emailjs from '@emailjs/browser';
-import walmart from "../../assets/walmart.png"
-import adobe from "../../assets/adobe.png"
-import facebook from "../../assets/facebook.png"
-import microsoft from "../../assets/microsoft.png"
+// import walmart from "../../assets/walmart.png"
+// import adobe from "../../assets/adobe.png"
+// import facebook from "../../assets/facebook.png"
+// import microsoft from "../../assets/microsoft.png"
 
 
 const Contact = () => {
@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contactPage">
-
+{/* 
       <div id="clients">
         <h1 className="contactPageTitle">My Clients</h1>
         <p className="clienDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dicta!</p>
@@ -42,7 +42,7 @@ const Contact = () => {
 
 
         </div>
-      </div>
+      </div> */}
 
 
 

@@ -1,25 +1,25 @@
 import React from 'react'
 import "./works.css"
-import Portfolio1 from "../../assets/portfolio-1.png"
-import Portfolio2 from "../../assets/portfolio-2.png"
-import Portfolio3 from "../../assets/portfolio-3.png"
-import Portfolio4 from "../../assets/portfolio-4.png"
-import Portfolio5 from "../../assets/portfolio-5.png"
-import Portfolio6 from "../../assets/portfolio-6.png"
+import apiMeal from "../../assets/apiMeals.png"
+import apiSearch from "../../assets/apiSearch.png"
+import navbar from "../../assets/navbar.png"
+import netflix from "../../assets/netflix.png"
+import jonDoe from "../../assets/jonDoe.png"
+import devkit from "../../assets/devkit.png"
 
 const Works = () => {
   return (
    <section id="works">
-<h2 className='worksTitle'>My Portfolio</h2>
+<h2 className='worksTitle'>My Projects</h2>
 <span className="workDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad ducimus cupiditate, et alias neque mollitia.</span>
 <div className="worksImgs">
 
-<img src={Portfolio1} alt="" className="workImg" />
-<img src={Portfolio2} alt="" className="workImg" />
-<img src={Portfolio3} alt="" className="workImg" />
-<img src={Portfolio4} alt="" className="workImg" />
-<img src={Portfolio5} alt="" className="workImg" />
-<img src={Portfolio6} alt="" className="workImg" />
+<img src={apiMeal} alt="" className="workImg" />
+<img src={apiSearch} alt="" className="workImg" />
+<img src={navbar} alt="" className="workImg" />
+<img src={netflix} alt="" className="workImg" />
+<img src={jonDoe} alt="" className="workImg" />
+<img src={devkit} alt="" className="workImg" />
 
 </div>
 <button className="worksBtn">See More</button>
