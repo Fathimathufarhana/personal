@@ -4,6 +4,7 @@ import WebDesign from "../../assets/website-design.png"
 
 const Skills = () => {
   return (
+<>
       <section id='skills'>
         <span className='skillTitle'>What i Do</span>
         <span className='skillDescription'>As a MERN stack developer,I'm responsible for both the frontend and backend development of web applications, using technologies like MongoDB, Express.js, React, and Node.js to create dynamic and user-friendly experiences for users. </span>
@@ -17,6 +18,7 @@ const Skills = () => {
         </div>
      </div>
       </section>
+      </>
   )
 }
 
