@@ -48,7 +48,7 @@ const Contact = () => {
 
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia?</span>
+        <span className="contactDesc">Let's get in touch,Whether you have questions, feedback, or simply want to reach out, this user-friendly tool allows you to send a message directly to me.</span>
         <form className="contactForm"
           ref={form}
           onSubmit={sendEmail}
